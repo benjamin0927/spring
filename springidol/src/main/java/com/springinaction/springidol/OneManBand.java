@@ -15,6 +15,10 @@ public class OneManBand implements Performer {
 
   private Collection<Instrument> instruments;
 
+  /**
+   * Collection / Map / Properties
+   * @param instruments
+   */
   public void setInstruments(Collection<Instrument> instruments) {
     this.instruments = instruments; //<co id="co_injectInstrumentCollection"/>
   }
